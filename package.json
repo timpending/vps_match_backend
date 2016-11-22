@@ -3,11 +3,18 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "private" : true,
+  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Matt Sprague <mesprague@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "fs": "0.0.1-security",
+    "node-couchdb": "^1.1.0",
+    "request-promise": "^4.1.1",
+    "restify": "^4.3.0"
+  }
 }
